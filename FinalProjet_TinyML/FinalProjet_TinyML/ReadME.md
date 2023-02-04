@@ -59,82 +59,12 @@ we need to convert the tflite model to a tflite_quantized_model.
 Instead of making a new project from scratch, I’m going to modify the Alarm project which comes with Harvard_TinyMLx examples.
 so we need to convert the tflite quantized model to a c++ file.
 here are the downloaded files : 
-![](files.png)
+![](files.PNG)
 First, I’m going to change the model array file with the one which I trained and converted. 
 Since we have 2 classes, we need to modify the model_settings.cpp
 If we take a look at the model_settings.h file, we can see that the kNumChannels equals to 1. Since we have 3 channels (red, green, blue), we must change it to 3. And, kCategoryCount must be 2.
 After making modifications on the files, we are ready to deploy our project to the Arduino board.
 # Result: 
-![](result.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](result.PNG)
 
 
