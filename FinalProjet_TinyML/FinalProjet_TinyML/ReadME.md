@@ -9,8 +9,6 @@ This project follows the AI/ machine learning  lifecycle presented below :
 Creating the dataset is the most important part of the project , for the cancer images we used the website  kaggle, i used the images related to a specific skin cancer which is “melanoma” found in the website Kaggle.
 https://www.kaggle.com/datasets/nodoubttome/skin-cancer9-classesisic
 here we have 2 classes , labeled “SafeSkin” and “CancerData”
-![](cancer.jpg)
-![](safe.jpg)
 # 3. Model's choice : 
 lots of models are used for image classification,
 One main criteria for choosing the right model in tinyML is the size of the model , by size i mean the Peak Memory Usage of the model and its compatibility with the board used.
@@ -40,7 +38,7 @@ Here i loaded 710 photos splitted :
  80% (568 photos) were used for training the model 284 for each class .
  20% (142 photos) for testing so 71 for each class.
 # 5.1.2 Step 2: Create Impulse
-![](cap3.png)
+![](cap3.PNG)
 here we can choose the transfer learning  and processing blocs , resize all the images through the Image data bloc .
 # 5.1.3 Step 3: Transfer Learning 
 ![](capt2.png)
